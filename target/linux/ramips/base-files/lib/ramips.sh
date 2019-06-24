@@ -703,8 +703,8 @@ ramips_board_detect() {
 	*"YK1")
 		name="youku-yk1"
 		;;
-	*"zte,e8820v2")
-		name="e8820v2"
+	*"ZTE E8820V2")
+		name="zte-e8820v2"
 		;;
 	esac
 

@@ -692,9 +692,9 @@ ramips_setup_macs()
 		wan_mac=$(macaddr_add "$lan_mac" 1)
 		;;
 	zte,e8820v2)
-		ucidef_set_interfaces_lan_wan"eth0.1""eth0.2"
-		ucidef_add_switch"switch0""1" "1" \
-		"3:lan:1""2:lan:1""1:lan:1" "0:lan:1" "4:wan:2""6t@eth0"
+		ucidef_set_interfaces_lan_wan "eth0.1" "eth0.2"
+		ucidef_add_switch "switch0" "1" "1" \
+			"3:lan:1" "2:lan:1" "1:lan:1" "0:lan:1" "4:wan:2" "6t@eth0"
 		;;
 	esac
 
